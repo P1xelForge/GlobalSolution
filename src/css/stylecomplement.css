@@ -93,6 +93,7 @@
     margin: auto;
     color: #fff;
     position: relative;
+    text-shadow: 1px 1px 4px #000000;
 }
 
 .content .par{
@@ -129,6 +130,7 @@
     text-decoration: none;
     color: #d4d4ff;
     transition: .4s ease;
+    text-shadow: 1px 1px 4px #000000;
 
 }
 
