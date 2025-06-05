@@ -17,6 +17,62 @@
 }
 /* Estilos para telas menores (mobile) */
 @media (max-width: 768px) {
+    .content{
+    width: 1500px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+    text-shadow: 1px 1px 4px #000000;
+    padding-right: 900px;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 70px;
+    padding-left: 10px;
+    margin-top: 15%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 300px;
+    height: 100px;
+    background: #5764a0;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 42px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #d4d4ff;
+    transition: .4s ease;
+    text-shadow: 1px 1px 4px #000000;
+
+}
+
+.cn:hover{
+    background-color: #29335e;
+}
+
+.content span{
+    color: #5764a0;
+}
   .menu-toggle {
     display: block;
     position: absolute;
@@ -331,4 +387,62 @@ footer .wave#wave4{
     position: absolute;
     top: -20%;
     left: 600px;
+
+}
+@media (max-width: 768px) {
+  .content{
+    width: 1270px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: flex;
+    text-shadow: 1px 1px 4px #000000;
+    margin-top: 20%;
+    text-align: center;
+  }
+
+  .content .par{
+    padding-left: 30px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+
+  }
+
+  .content h1{
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    padding-left: 10px;
+    margin-top: 15%;
+    letter-spacing: 2px;
+  }
+
+.content .cn{
+    width: 300px;
+    height: 100px;
+    background: #5764a0;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 42px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+  }
+
+  .content .cn a{
+    text-decoration: none;
+    color: #d4d4ff;
+    transition: .4s ease;
+    text-shadow: 1px 1px 4px #000000;
+
+  }
+
+  .cn:hover{
+    background-color: #29335e;
+  }
+
+  .content span{
+    color: #5764a0;
+  }
 }
