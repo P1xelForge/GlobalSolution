@@ -178,3 +178,25 @@ function changeQuizColor(color) {
   const quizContainer = document.querySelector('.quiz-container');
   quizContainer.style.backgroundColor = color;
 }
+
+//CODIGO DO LOGIN DE USUARIO
+function toggleLogin() {
+  const loginBox = document.getElementById("login-box");
+  loginBox.classList.toggle("hidden2");
+}
+
+function validateLogin() {
+  const email = document.getElementById("email").value.trim();
+  const senha = document.getElementById("senha").value.trim();
+  const errorMsg = document.getElementById("error-msg");
+
+  if (email === "" || senha === "") {
+    errorMsg.textContent = "Preencha todos os campos.";
+    return false;
+  }
+
+  errorMsg.textContent = ""; // Limpa erros
+  alert("Login enviado!");
+  return true;
+}
+//CODIGO DO LOGIN DE USUARIO

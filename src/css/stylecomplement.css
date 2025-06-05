@@ -446,3 +446,53 @@ footer .wave#wave4{
     color: #5764a0;
   }
 }
+
+.user-icon {
+  font-size: 35px;
+  position: fixed;
+  top: 20px;
+  right: 25px;
+  cursor: pointer;
+}
+
+#entrartext{
+    color: white;
+}
+
+#login-box {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: #29335e;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 15px;
+  width: 250px;
+  height: 200px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.hidden2 {
+  display: none;
+}
+
+#login-form input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+#login-form button {
+  width: 100%;
+  padding: 8px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#error-msg {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}

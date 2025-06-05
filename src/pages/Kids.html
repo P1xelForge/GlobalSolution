@@ -7,6 +7,18 @@
     <link rel="stylesheet" href="/src/css/stylekids.css">
 </head>
 <body>
+        <div class="user-icon" onclick="toggleLogin()">
+            <img src="/src/assets/usuario.png" alt="User Icon" class="user-icon-img">
+                    </div>
+                <div id="login-box" class="hidden2">
+                    <form id="login-form" onsubmit="return validateLogin()">
+                        <h3 id="entrartext">Entrar</h3>
+                            <input type="email" id="email" placeholder="Email">
+                            <input type="password" id="senha" placeholder="Senha">
+                            <button type="submit">Login</button>
+                            <p id="error-msg"></p>
+                    </form>
+                </div>
     <div class="main">
         <div class="navbar">
             <div class="menu-toggle" id="menu-toggle">☰</div> <!-- Botão hambúrguer -->

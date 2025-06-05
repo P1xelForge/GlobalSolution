@@ -13,6 +13,18 @@
             <div>
                 <img src="/src/assets/LogoMonsterForge.png" class="icon"><img>
             </div>
+            <div class="user-icon" onclick="toggleLogin()">
+                        <img src="/src/assets/usuario.png" alt="User Icon" class="user-icon-img">
+                    </div>
+                <div id="login-box" class="hidden2">
+                    <form id="login-form" onsubmit="return validateLogin()">
+                        <h3 id="entrartext">Entrar</h3>
+                            <input type="email" id="email" placeholder="Email">
+                            <input type="password" id="senha" placeholder="Senha">
+                            <button type="submit">Login</button>
+                            <p id="error-msg"></p>
+                    </form>
+                </div>
             <div class="menu" id="menu">
                 <ul>
                     <li><a href="/index.html">HOME</a></li>
