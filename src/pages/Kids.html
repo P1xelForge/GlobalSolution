@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Global Solution</title>
-    <link rel="stylesheet" href="/src/css/stylecomplement.css">
+    <link rel="stylesheet" href="/src/css/stylekids.css">
 </head>
 <body>
     <div class="main">
@@ -16,9 +16,9 @@
             <div class="menu" id="menu">
                 <ul>
                     <li><a href="/index.html">HOME</a></li>
-                    <li><a href="./src/pages/sobre.html">SOBRE</a></li>
-                    <li><a href="./src/pages/download.html">DOWNLOAD</a></li>
-                    <li><a href="./src/pages/Kids.html">KIDS</a></li>
+                    <li><a href="/src/pages/sobre.html">SOBRE</a></li>
+                    <li><a href="/src/pages/download.html">DOWNLOAD</a></li>
+                    <li><a href="/src/pages/Kids.html">KIDS</a></li>
                 </ul>
             </div>
         </div>
@@ -28,15 +28,24 @@
                 <img src="/src/assets/enchentes2.jpeg" alt="enchente2">
                 <img src="/src/assets/enchentes3.jpeg" alt="enchente3">
             </div>
-        <div class="content">
-            <h1>Uma solução para <br><span>as Enchentes</span><br></h1>
-            <p class="par">As enchentes causam perdas humanas e materiais. Muitas vezes, a <br><span>população não é alertada a tempo.</span><br> Nossa solução visa antecipar riscos e salvar vidas, avisando comunidades antes que o pior aconteça.</p>
-            <button class="cn"><a href="./src/pages/sobre.html">Saiba Mais</a></button>
-            <div class="imglogo">
-                <img src="/src/assets/LogoMonsterForge.png" class="logo2"><img>
+     </div>
+     <div class="quiz-container">
+                    <div class="color-buttons">
+                        <button onclick="changeQuizColor('#1a3359')">Azul Escuro</button>
+                        <button onclick="changeQuizColor('#333')">Cinza Escuro</button>
+                        <button onclick="changeQuizColor('#000')">Preto</button>
+                    </div>
+            <div id="quiz">
+                <h2 id="question">Pergunta vai aqui</h2>
+                    <ul id="choices">
+                        <!-- Respostas serão inseridas aqui -->
+                    </ul>
+                        <button id="next-btn">Próxima</button>
             </div>
-        </div>
-
+                <div id="result" class="hidden">
+                    <h2>Você acertou <span id="score"></span> de 10 perguntas!</h2>
+                    <button onclick="location.reload()">Recomeçar</button>
+            </div>
     </div>
 </body>
 <footer>

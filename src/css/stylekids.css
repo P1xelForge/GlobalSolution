@@ -332,3 +332,88 @@ footer .wave#wave4{
     top: -20%;
     left: 600px;
 }
+
+.quiz-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 600px;
+  background-color: rgba(26, 51, 89, 0.95);
+  color: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #000;
+  font-family: Arial, sans-serif;
+  z-index: 100;
+}
+
+#quiz h2, #result h2 {
+  font-size: 28px;
+  margin-bottom: 1rem;
+  color: #d4d4ff;
+  text-shadow: 1px 1px 3px #000;
+}
+
+ul#choices {
+  list-style: none;
+  padding: 0;
+}
+
+ul#choices li {
+  margin: 0.5rem 0;
+}
+
+ul#choices button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #5764a0;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+ul#choices button:hover {
+  background-color: #29335e;
+}
+
+#next-btn {
+  margin-top: 1rem;
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #44549e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.color-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.color-buttons button {
+  background-color: #fff;
+  color: #1a3359;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.color-buttons button:hover {
+  background-color: #ddd;
+}
+
