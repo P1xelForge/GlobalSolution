@@ -85,8 +85,7 @@
     width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.7)70%, rgba(0,0,0,0.7)70%), url(/src/assets/background.png);
     background-size: cover;
-    height: 436vh;
-
+    height: 100%;
 }
 
 .mainalt{
@@ -154,7 +153,7 @@
     margin: auto;
     color: #fff;
     position: relative;
-    margin-top: 350px;
+    margin-top: 0px;
 }
 
 .content .par{
@@ -333,7 +332,7 @@ footer .wave#wave4{
     font-family: 'Times New Roman';
     font-size: 70px;
     padding-left: 10px;
-    margin-top: 15%;
+    margin-top: 6%;
     letter-spacing: 2px;
     text-align: center;
 }
@@ -356,7 +355,7 @@ footer .wave#wave4{
     margin: auto;
     color: #fff;
     position: relative;
-    margin-top: 450px;
+    margin-top: 250px;
 }
 
 .content3 .par{
@@ -372,7 +371,7 @@ footer .wave#wave4{
     font-family: 'Times New Roman';
     font-size: 70px;
     padding-left: 1000px;
-    margin-top: 15%;
+    margin-top: 0%;
     letter-spacing: 2px;
 }
 
@@ -404,34 +403,23 @@ footer .wave#wave4{
 }
 
 .logo{
-    margin-top: 300px;
+    margin-top: 250px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 .content4{
-    width: 1500px;
-    height: auto;
+    width: 100%;
+    height: 100%;
     margin: auto;
     color: #1c345c;
     position: relative;
     text-shadow: 1px 1px 4px #000000;
 }
 
-.content4 .par{
-    font-size: 20px;
-    padding-left: 20px;
-    padding-bottom: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 1.2px;
-    line-height: 30px;
-    text-align: center;
-
-}
-
 .content4 h1{
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman'; 
     font-size: 40px;
     padding-left: 10px;
     letter-spacing: 2px;
@@ -454,17 +442,6 @@ footer .wave#wave4{
     color: #fff;
     position: relative;
     text-shadow: 1px 1px 4px #000000;
-}
-
-.content5 .par{
-    font-size: 20px;
-    padding-left: 20px;
-    padding-bottom: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 1.2px;
-    line-height: 30px;
-    text-align: center;
-
 }
 
 .content5 h1{
@@ -520,6 +497,22 @@ footer .wave#wave4{
     width: 350px;
     height: 350px;
 }
+
+.img1{
+    margin-left: 800px;
+    display: block;
+    position: absolute;
+    top: -1%;
+    border-radius: 50px;
+}
+
+.img2{
+    display: block;
+    position: absolute;
+    top: -6%;
+    border-radius: 50px;
+}
+
 /*Apple*/
 .btn {
     display: block;
@@ -747,7 +740,7 @@ footer .wave#wave4{
 }
 @media (max-width: 768px) {
   .content{
-    width: 1365px;
+    width: 100%;
     height: auto;
     margin: auto;
     color: #fff;
@@ -755,6 +748,11 @@ footer .wave#wave4{
     text-shadow: 1px 1px 4px #000000;
     margin-top: 20%;
     text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    align-content: center;
   }
 
   .content .par{
@@ -762,7 +760,11 @@ footer .wave#wave4{
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1.2px;
     line-height: 30px;
-
+    align-content: center;    
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
   }
 
   .content h1{
@@ -771,6 +773,10 @@ footer .wave#wave4{
     padding-left: 0px;
     margin-top: 15%;
     letter-spacing: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
   }
 
   .content .cn{
@@ -804,13 +810,17 @@ footer .wave#wave4{
   /* 2 */
 
   .content2 {
-    width: 330px;
+    width: 100%;
     height: auto;
     margin: auto;
     color: #fff;
     position: flex;
     text-shadow: 1px 1px 4px #000000;
     text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
   }
 
   .content2 .par{
@@ -819,7 +829,10 @@ footer .wave#wave4{
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1.2px;
     line-height: 30px;
-
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
   }
 
   .content2 h1{
@@ -827,10 +840,14 @@ footer .wave#wave4{
     font-size: 40px;
     margin-top: 15%;
     letter-spacing: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
   }
 
  .content2 .cn{
-    width: 330px;
+    width: 100%;
     height: 100px;
     background: #5764a0;
     border: none;
@@ -864,7 +881,7 @@ footer .wave#wave4{
   /* 3 */
 
   .content3 {
-    width: 330px;
+    width: 100%;
     height: auto;
     margin: auto;
     color: #fff;
@@ -918,21 +935,360 @@ footer .wave#wave4{
   .content3 span{
     color: #5764a0;
   }
-
-  .content4{
-    display: none;
-  }
   
-  .logo{
-    display: none;
-  }
-
   .navbar{
     width: 10px;
     height: 75px;
     margin: 0;
 
   } 
+  /*download*/
+    .content5{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+    text-shadow: 1px 1px 4px #000000;
+    }
+
+    .content5 h1{
+    font-family: 'Times New Roman';
+    font-size: 42px;
+    margin-top: 2%;
+    letter-spacing: 2px;
+    text-align: center;
+    }
+
+    .content5 .cn{
+    width: 100%;
+    height: 100%;
+    background: #5764a0;
+    border: none;
+    font-size: 42px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    }
+
+    .content5 .cn a{
+    text-decoration: none;
+    color: #d4d4ff;
+    transition: .4s ease;
+
+    }
+
+    .cn:hover{
+    background-color: #29335e;
+    }
+
+    .content5 span{
+    color: #5764a0;
+    }
+
+    .content5 h2{
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    }
+
+    .applogo{
+    margin: auto;
+    display: block;
+    width: 150px;
+    height: 150px;
+    }
+
+    .content4{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    color: #1c345c;
+    position: relative;
+    text-shadow: 1px 1px 4px #000000;
+    }
+
+    .content4 h1{
+    font-family: 'Times New Roman';
+    font-size: 17px;
+    padding-left: 10px;
+    letter-spacing: 2px;
+    text-align: center;
+    }
+
+    /*Apple*/
+    .btn{
+    display: block;
+    margin-top: 20px;
+    width: 200px;
+    padding: 15px 20px;
+    border: 1px 1px 1px;
+    border-color: #fff;
+    margin-left: 100px;
+    outline: none;
+    color: #ffffff;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    }
+    .btn::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #1d88f4;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    }
+
+    .btn::before {
+    content: "";
+    background: linear-gradient(
+    45deg,
+    #a5a5a5, #979797
+    );
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 10px);
+    height:  calc(100% + 10px);
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 0;
+    }
+
+    @keyframes glowing {
+    0% {background-position: 0 0;}
+    50% {background-position: 400% 0;}
+    100% {background-position: 0 0;}
+    }
+
+    .btn2::before {
+    content: "";
+    background: linear-gradient(
+     45deg,
+    #707070, #757575
+    );
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 10px);
+    height:  calc(100% + 10px);
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 0;
+    }
+
+    @keyframes glowing {
+    0% {background-position: 0 0;}
+    50% {background-position: 400% 0;}
+    100% {background-position: 0 0;}
+    }
+
+    .btn2:hover::before {
+    opacity: 1;
+    }
+
+    .btn:active:after {
+    background: #1361af;
+    }
+
+    .btn:active {
+    color: #ffffff;
+    }
+/*GPlay*/
+    .btn2 {
+    display: block;
+    margin-top: 20px;
+    width: 200px;
+    padding: 15px 20px;
+    border: 1px 1px 1px;
+    border-color: #fff;
+    outline: none;
+    color: #ffffff;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    }
+    .btn2::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    }
+
+    .btn2::before {
+    content: "";
+    background: linear-gradient(
+     45deg,
+    #707070, #757575
+    );
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 10px);
+    height:  calc(100% + 10px);
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 0;
+    }
+
+    @keyframes glowing {
+    0% {background-position: 0 0;}
+    50% {background-position: 400% 0;}
+    100% {background-position: 0 0;}
+    }
+
+    .btn2:hover::before {
+    opacity: 1;
+    }
+
+    .btn2:active:after {
+    background: #1b1b1b;
+    }
+
+    .btn2:active {
+    color: #ffffff;
+    }
+
+/*windows*/
+    .btn3 {
+    display: block;
+    margin-top: 20px;
+    width: 200px;
+    padding: 15px 20px;
+    border: 1px 1px 1px;
+    border-color: #fff;
+    outline: none;
+    color: #ffffff;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    }
+    .btn3::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0c1c34;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    }
+
+    .btn3::before {
+    content: "";
+    background: linear-gradient(
+     45deg,
+    #707070, #757575
+     );
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 10px);
+    height:  calc(100% + 10px);
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 0;
+    }
+
+    @keyframes glowing {
+    0% {background-position: 0 0;}
+    50% {background-position: 400% 0;}
+    100% {background-position: 0 0;}
+    }
+
+    .btn3:hover::before {
+    opacity: 1;
+    }
+
+    .btn3:active:after {
+    background: #101c2c;
+    }
+
+    .btn3:active {
+    color: #ffffff;
+    }
+/*lista*/
+    .buttons{
+    width: 73%;
+    float: flex;
+    height: 20%;
+
+    }
+    .buttons ul{
+    float: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    align-items: none;
+    vertical-align: none;
+    }
+
+    .buttons ul li{
+    list-style: none;
+    margin-top: 20px;
+    font-size: 25px;
+    letter-spacing: 0px;
+    }
+
+    .buttons ul li a{
+    text-decoration: none;
+    }
+
+    .logo{
+    height: 196.35px;
+    width: 350px;
+    margin-top: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .main{
+    height: 285vh;
+    } 
+    .img1{
+    display: none;
+    }
+
+    .img2{
+    display: none;
+    }
 }
 
 .user-icon {
