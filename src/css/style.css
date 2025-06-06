@@ -332,7 +332,7 @@ footer .wave#wave4{
     font-family: 'Times New Roman';
     font-size: 70px;
     padding-left: 10px;
-    margin-top: 6%;
+    margin-top: 8%;
     letter-spacing: 2px;
     text-align: center;
 }
@@ -448,7 +448,7 @@ footer .wave#wave4{
     font-family: 'Times New Roman';
     font-size: 70px;
     padding-left: 10px;
-    margin-top: 6%;
+    margin-top: 7%;
     letter-spacing: 2px;
     text-align: center;
 }
@@ -1339,4 +1339,55 @@ footer .wave#wave4{
   color: red;
   font-size: 12px;
   margin-top: 5px;
+}
+
+
+.hamburguer {
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: none; /* só aparece no mobile */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: -250px; /* escondido à esquerda */
+  width: 250px;
+  height: 100%;
+  background-color: #101322;
+  overflow-x: hidden;
+  transition: left 0.3s ease;
+  padding-top: 60px;
+  z-index: 10000;
+  list-style: none;
+}
+
+.side-menu.open {
+  left: 0; /* aparece empurrando da esquerda */
+}
+
+.side-menu a {
+  display: block;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  transition: background-color 0.2s;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.side-menu a:hover {
+  background-color: #181c2e;
+}
+
+/* Mostrar botão e menusomente no mobile */
+@media (max-width: 768px) {
+  .hamburguer {
+    display: block;
+  }
 }

@@ -200,3 +200,8 @@ function validateLogin() {
   return true;
 }
 //CODIGO DO LOGIN DE USUARIO
+
+function toggleMenu() {
+  const menu = document.getElementById("sideMenu");
+  menu.classList.toggle("open");
+}
